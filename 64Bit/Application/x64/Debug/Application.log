@@ -1,0 +1,42 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  RandomNumber.c
+  misty_run.c
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\mystry_alorithm_x64_v10.0.14\application\misty_run.c(20): warning C4013: 'misty1_main' undefined; assuming extern returning int
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\mystry_alorithm_x64_v10.0.14\application\misty_run.c(13): warning C4101: 'key': unreferenced local variable
+  misty1.c
+  Encryption.c
+  Emulation_application.c
+  Distribution.c
+  des_run.c
+  des.c
+  Database_FTP_Custom.c
+  BSM.c
+  Application.c
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\mystry_alorithm_x64_v10.0.14\application\application.c(89): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\mystry_alorithm_x64_v10.0.14\application\application.c(601): warning C4013: 'xor_encrypt' undefined; assuming extern returning int
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\mystry_alorithm_x64_v10.0.14\application\application.c(606): warning C4013: 'encryptBlock' undefined; assuming extern returning int
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\mystry_alorithm_x64_v10.0.14\application\application.c(608): warning C4013: 'misty_run' undefined; assuming extern returning int
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\mystry_alorithm_x64_v10.0.14\application\application.c(611): warning C4013: 'des' undefined; assuming extern returning int
+  aes_run.c
+  aes.c
+  Generating Code...
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\mystry_alorithm_x64_v10.0.14\application\misty1.c(337): warning C4716: 'misty1_main': must return a value
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Application\..\Dll\Application.dll) does not match the Linker's OutputFile property value (C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\libApplication.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(Application) does not match the Linker's OutputFile property value (libApplication). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+aes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  Application.lib(HTTP.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+aes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\Application.lib and object ..\Dll\Application.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+Application.lib(HTTP.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(HTTP.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Video.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Video.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Voice.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Voice.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(P2P.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(P2P.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(Email.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(Email.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(ErlangCall.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(ErlangCall.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\ApplicationLib.pdb'; linking object as if no debug info
+Application.lib(libApplication.obj) : warning LNK4099: PDB 'ApplicationLib.pdb' was not found with 'Application.lib(libApplication.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\ApplicationLib.pdb'; linking object as if no debug info
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Dll\List.pdb'; linking object as if no debug info
+  Application.vcxproj -> C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Mystry_Alorithm_x64_v10.0.14\Application\..\Dll\Application.dll
+  Application.vcxproj -> ..\Dll\Application.pdb (Full PDB)
